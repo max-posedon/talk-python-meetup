@@ -1,0 +1,60 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage[english,russian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{pgfpages}
+\usepackage{ulem}
+\usepackage{float}
+\usepackage{amsmath}
+
+\setbeamercolor{title}{fg=white}
+\setbeamercolor{author}{fg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{frametitle}{fg=black}
+\setbeamercolor{item}{fg=red}
+\setbeamercolor{block title}{fg=red}
+\setbeamercolor{section in toc}{fg=red}
+\setbeamercolor{footline}{fg=white}
+\setbeamercolor{title in head/foot}{fg=white,bg=black}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{headline}{
+    \includegraphics[height=1mm, width=\paperwidth]{wg-headline.png}
+}
+
+\logo{
+    \includegraphics[height=1.7cm]{wg-logo.png}
+}
+
+\setbeamertemplate{footline}{
+    \begin{beamercolorbox}[ht=1.2em]{title in head/foot}
+        {\footnotesize \hspace{1em}\inserttitle, \insertshortauthor}
+    \end{beamercolorbox}
+}
+
+\begin{document}
+
+\title{Python Meetup: Июнь}
+\author{Maksim Melnikau (max\_posedon)}
+\date{}
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{wg-bg.jpg}}
+\begin{frame}{Python Meetup: Июнь}
+    \begin{block}{Program}
+    \begin{itemize}
+        \item Python: легко и просто. Красивые решения обычных задач\\Александр Семенюк, Wargaming
+        \item Дескрипторы в теории и на практике\\Стас Рудаков, Wargaming
+        \item Беглый обзор внутренностей интерпретатора Python\\Никита Лесников, Wargaming
+        \item Fabric для управления серверами\\Александр Зайцев, Caspowa
+    \end{itemize}
+    \end{block}
+
+    \begin{block}{Feedback}
+    \par \url{mailto:meetup@wargaming.net}
+    \par \url{http://www.facebook.com/events/555798094459550/}
+    \end{block}
+\end{frame}
+
+\end{document}
+
